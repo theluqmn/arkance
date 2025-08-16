@@ -1,9 +1,7 @@
 <div class="rounded-md bg-white flex flex-col gap-4">
-    <h2 class="">{{ include.heading }}</h2>
-    <p>{{ include.content }}</p>
-    <a href="{{ include.button_url }}">
-        <div class="p-4 bg-[rgb(59,70,250)]">
-            {{ include.button_text }}
-        </div>
+    <h2 class="text-xl text-bold">{{ include.heading }}</h2>
+    <p class="text-rgb[20,20,20]">{{ include.content }}</p>
+    <a href="{{ include.button_url }} p-4 bg-[rgb(59,70,250)] rounded-md">
+        {{ include.button_text }}
     </a>
 </div>
