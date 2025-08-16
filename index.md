@@ -4,4 +4,8 @@ layout: default
 
 # arkance
 
-{% include navbar.html %}
+testing some text
+
+## what is this?
+
+this is arkance!
